@@ -1,0 +1,39 @@
+{
+    "didShowIssueHelperPopup": true,
+    "currentVersionInfo": {
+        "version": "1.3.4",
+        "hasShownChangelog": true
+    },
+    "settings": {
+        "accounts": [
+            {
+                "name": "DeFc0n#1000",
+                "id": "439128031152570389",
+                "avatar": "https://cdn.discordapp.com/avatars/439128031152570389/a_651f0507c0c102568c6a1a4b7533f54e.gif?size=128",
+                "keybind": [
+                    64,
+                    10
+                ],
+                "token": "koeDvRirGj2XKNcAmZVZBA==:0z/MVrDfU62mOphSPjXU8cLu79YZFBAo8dJgMatJrMDDotrSuXeel2BZQRpn6m2PLIFJP0A2OpVu2H24l7umOw=="
+            },
+            {
+                "name": "testersa#0850",
+                "id": "848840802548580393",
+                "avatar": "/assets/1f0bfc0865d324c2587920a7d80c609b.png",
+                "keybind": [
+                    64,
+                    11
+                ],
+                "token": "4t2jsdO0WYsmEzK7hRQ8JA==:GNmgenlRkkhkc4dhauRc30FzpwO63KfMCFX5h+7cfamu11CYZ43Wq7ZJcJ2QmbGUPkYa/nBEYHHt7vH65O6rUQ=="
+            }
+        ],
+        "encrypted": false,
+        "encTest": "test",
+        "pluginsToRestart": [
+            "AccountDetailsPlus",
+            "AutoStartRichPresence"
+        ],
+        "encryptionVersion": 2,
+        "salt": "8XbcXIA/WrOxoZdIh0CnwWntS8gKt3czbfBpW6rNAB8="
+    }
+}
