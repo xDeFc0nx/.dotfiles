@@ -1,8 +1,9 @@
-#  ____ _____
-# |  _ \_   _|  Derek Taylor (DistroTube)
-# | | | || |    http://www.youtube.com/c/DistroTube
-# | |_| || |    http://www.gitlab.com/dwt1/
-# |____/ |_|
+#       .___      _____
+#     __| _/_____/ ____\____  ______   Nehar Tale DeFc0n
+#    / __ |/ __ \   __\/  _ \/  ___/  https://www.github.com/xDeFc0nx/
+#   / /_/ \  ___/|  | (  <_> )___ \
+#   \____ |\___  >__|  \____/____  >
+#        \/    \/                \/
 #
 # My fish config. Not much to see here; just some pretty standard stuff.
 
@@ -11,7 +12,7 @@
 # your path gets massive and fish becomes very slow.
 set -e fish_user_paths
 set -U fish_user_paths $HOME/.local/bin $HOME/Applications $fish_user_paths
-set -x PATH /home/defc0n/scripts $PATH
+set -x PATH $HOME/scripts $PATH
 ### EXPORT ###
 set fish_greeting                                 # Supresses fish's intro message
 
