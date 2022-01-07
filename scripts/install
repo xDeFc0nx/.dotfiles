@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# INSTALL SCRIPT FOR ARCH
+# Installing basic system utilities frist.
+
+#cd ~
+yes | sudo pacman -Syu
+yes | sudo pacman -S bpytop java8-openjfx jdk8-openjdk jre8-openjdk jre8-openjdk-headless yay
+
+# Installing software 
+
+yes | sudo pacman -S discord git code keepassxc tor kdenlive obs-studio
+yay -S tlauncher google-chrome betterdiscord  --noconfirm
+
+echo "done!"
