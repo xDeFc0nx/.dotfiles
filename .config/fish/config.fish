@@ -193,7 +193,7 @@ end
 
 ### ALIASES ###
 alias clear='/bin/clear; echo; echo; seq 1 (tput cols) | sort -R | spark | lolcat; echo; echo'
-alias server='ssh -i  mitegra@172.104.141.16'
+alias server='ssh -i ~/.ssh/mainserver mitegra@172.104.141.16'
 alias vpn='sudo openvpn --config pc.ovpn'
 # root privileges
 alias doas="doas --"

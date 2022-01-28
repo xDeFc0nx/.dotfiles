@@ -410,8 +410,9 @@ myKeys =
     ("M-d", spawn "discord"),
     ("M-c", spawn "code"),
     ("M-i", spawn "google-chrome-stable"),
-    ("M-p", spawn "keepassxc"),
+    ("M-o", spawn "keepassxc"),
     ("M-v", spawn "dolphin"),
+    ("M-w", spawn "virt-manager"),
     -- KB_GROUP Run Prompt
     ("M-S-<Return>", spawn "dmenu_run -i -p \"Run: \""), -- Dmenu
 
