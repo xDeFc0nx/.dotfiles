@@ -409,7 +409,7 @@ myKeys =
     -- my keybindings config
     ("M-d", spawn "discord"),
     ("M-c", spawn "code"),
-    ("M-i", spawn "google-chrome-stable"),
+    ("M-i", spawn "chromium"),
     ("M-o", spawn "keepassxc"),
     ("M-v", spawn "dolphin"),
     ("M-w", spawn "virt-manager"),
