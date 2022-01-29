@@ -358,7 +358,7 @@ myLayoutHook =
         ||| wideAccordion
 
 -- myWorkspaces = [" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "]
-myWorkspaces = [" dev ", " www ", " sys ", " doc ", " vbox ", " chat ", " mus ", " vid ", " gfx "]
+myWorkspaces = [" -1 ", " -2 ", " -3 ", " 1 ", " 2 ", " 3 "]
 
 myWorkspaceIndices = M.fromList $ zipWith (,) myWorkspaces [1 ..] -- (,) == \x y -> (x,y)
 
@@ -552,7 +552,7 @@ myKeys =
 main :: IO ()
 main = do
   -- Launching three instances of xmobar on their monitors.
-  xmproc0 <- spawnPipe ("xmobar -x 0 $HOME/.config/xmobar/" ++ colorScheme ++ "-xmobarrc")
+  xmproc0 <- spawnPipe ("xmobar -x 0 $HOME/.config/xmobar/xmobarrc")
   xmproc1 <- spawnPipe ("xmobar -x 1 $HOME/.config/xmobar/" ++ colorScheme ++ "-xmobarrc")
   xmproc2 <- spawnPipe ("xmobar -x 2 $HOME/.config/xmobar/" ++ colorScheme ++ "-xmobarrc")
   -- the xmonad, ya know...what the WM is named after!
@@ -585,18 +585,14 @@ main = do
                         >> hPutStrLn xmproc2 x, -- xmobar on monitor 3
                         -- Current workspace
                     ppCurrent =
-                      xmobarColor color06 ""
-                        . wrap
-                          ("<box type=Bottom width=2 mb=2 color=" ++ color06 ++ ">")
-                          "</box>",
+                      xmobarColor "#20BB87" ""
+                      ,
                     -- Visible but not current workspace
-                    ppVisible = xmobarColor color06 "" . clickable,
+                    ppVisible = xmobarColor "#20BB87" "" . clickable,
                     -- Hidden workspace
                     ppHidden =
-                      xmobarColor color05 ""
-                        . wrap
-                          ("<box type=Top width=2 mt=2 color=" ++ color05 ++ ">")
-                          "</box>"
+                      xmobarColor "#00BDFF" ""
+                       
                         . clickable,
                     -- Hidden workspaces (no windows)
                     ppHiddenNoWindows = xmobarColor color05 "" . clickable,
