@@ -1,5 +1,4 @@
 {
-    "didShowIssueHelperPopup": true,
     "currentVersionInfo": {
         "version": "1.3.4",
         "hasShownChangelog": true
@@ -7,24 +6,24 @@
     "settings": {
         "accounts": [
             {
-                "name": "DeFc0n#1000",
+                "name": "DeFc0n#3052",
                 "id": "439128031152570389",
-                "avatar": "https://cdn.discordapp.com/avatars/439128031152570389/a_651f0507c0c102568c6a1a4b7533f54e.gif?size=128",
+                "avatar": "https://cdn.discordapp.com/avatars/439128031152570389/651f0507c0c102568c6a1a4b7533f54e.webp?size=128",
                 "keybind": [
                     64,
                     10
                 ],
-                "token": "koeDvRirGj2XKNcAmZVZBA==:0z/MVrDfU62mOphSPjXU8cLu79YZFBAo8dJgMatJrMDDotrSuXeel2BZQRpn6m2PLIFJP0A2OpVu2H24l7umOw=="
+                "token": "69Q4p9Cz8daU7gBzgiVzqA==:tI59eSe7gRBk1tlp36v4lnxTofkERvdahKYXzhxr3VwX29gstqAaab6R3RiCt8EimGdssFmx7d56Eoz9AQqirw=="
             },
             {
-                "name": "testersa#0850",
+                "name": "DeFc0n#0001",
                 "id": "848840802548580393",
-                "avatar": "/assets/1f0bfc0865d324c2587920a7d80c609b.png",
+                "avatar": "https://cdn.discordapp.com/avatars/848840802548580393/a_25ad7a869e8c5a6c91107f9bb78a75a7.gif?size=128",
                 "keybind": [
                     64,
                     11
                 ],
-                "token": "4t2jsdO0WYsmEzK7hRQ8JA==:GNmgenlRkkhkc4dhauRc30FzpwO63KfMCFX5h+7cfamu11CYZ43Wq7ZJcJ2QmbGUPkYa/nBEYHHt7vH65O6rUQ=="
+                "token": "wrdx0FIWo9tKFpaJKEvs2w==:rJItSIkVmlwWejoXgOsXgRYoOuH5B0Apb2wVImsVoLnhxQwHwwLAkrAcTXiZ4dPyGHCew8Z7evh1idrPJQupAg=="
             }
         ],
         "encrypted": false,
@@ -34,6 +33,7 @@
             "AutoStartRichPresence"
         ],
         "encryptionVersion": 2,
-        "salt": "8XbcXIA/WrOxoZdIh0CnwWntS8gKt3czbfBpW6rNAB8="
-    }
+        "salt": "/c9IQpUzgkSks5SGjnHLiuE3x6auaM2vfsHf3zQlzX4="
+    },
+    "didShowIssueHelperPopup": true
 }

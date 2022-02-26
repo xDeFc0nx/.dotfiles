@@ -5,18 +5,18 @@
     },
     "settings": {
         "global": {
-            "important": false
+            "important": true
         },
         "modules": {
-            "typing": false,
+            "typing": true,
             "voice": true,
             "mentions": true,
-            "chat": true,
+            "chat": false,
             "botTags": true,
             "memberList": true
         },
         "popouts": {
-            "username": false,
+            "username": true,
             "discriminator": false,
             "nickname": true,
             "fallback": true

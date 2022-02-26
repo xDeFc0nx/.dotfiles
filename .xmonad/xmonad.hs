@@ -585,14 +585,12 @@ main = do
                         >> hPutStrLn xmproc2 x, -- xmobar on monitor 3
                         -- Current workspace
                     ppCurrent =
-                      xmobarColor "#20BB87" ""
-                      ,
+                      xmobarColor "#20BB87" "",
                     -- Visible but not current workspace
                     ppVisible = xmobarColor "#20BB87" "" . clickable,
                     -- Hidden workspace
                     ppHidden =
                       xmobarColor "#00BDFF" ""
-                       
                         . clickable,
                     -- Hidden workspaces (no windows)
                     ppHiddenNoWindows = xmobarColor color05 "" . clickable,

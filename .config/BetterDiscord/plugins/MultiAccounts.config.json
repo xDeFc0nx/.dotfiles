@@ -1,0 +1,20 @@
+{
+    "currentVersionInfo": {
+        "version": "1.0.0",
+        "hasShownChangelog": true
+    },
+    "accounts": [],
+    "settings": [
+        null,
+        {
+            "name": "DeFc0n#0001",
+            "id": "848840802548580393",
+            "token": "ODQ4ODQwODAyNTQ4NTgwMzkz.YhGjKQ.o3HLEVIRCJUSAe00qLw6cJr_Lwc"
+        },
+        {
+            "name": "DeFc0n#3052",
+            "id": "439128031152570389",
+            "token": "NDM5MTI4MDMxMTUyNTcwMzg5.YVIVSQ.jKnXc4jvJHVTU1ozebjTZJr_lVs"
+        }
+    ]
+}
